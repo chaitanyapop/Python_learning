@@ -1,0 +1,10 @@
+animalList = ['dog','cat','tiger','lion','monkey']
+print(animalList, len(animalList))
+animalList.pop(3)
+print("after pop", animalList)
+animalList.append("Jiraf")
+print("after append",animalList)
+animalList.pop(0)
+print(animalList)
+print(animalList[0:3])
+print(animalList)
